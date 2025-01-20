@@ -4,6 +4,5 @@
       xmlns:views="clr-namespace:MSExamen.Views"
       x:Class="MSExamen.AppShell">
     <ShellContent Title="Lista de Lugares" ContentTemplate="{DataTemplate views:ListaLugaresPage}" />
-    <ShellContent Title="Detalles del Lugar" ContentTemplate="{DataTemplate views:DetallesLugarPage}" />
     <ShellContent Title="Lugares Guardados" ContentTemplate="{DataTemplate views:LugaresGuardadosPage}" />
 </Shell>

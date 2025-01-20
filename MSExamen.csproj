@@ -65,9 +65,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\DetallesLugarPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\ListaLugaresPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
