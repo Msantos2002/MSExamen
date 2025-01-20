@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="MSExamen.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MSExamen"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MSExamen">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:views="clr-namespace:MSExamen.Views"
+      x:Class="MSExamen.AppShell">
+    <ShellContent Title="Lista de Lugares" ContentTemplate="{DataTemplate views:ListaLugaresPage}" />
+    <ShellContent Title="Detalles del Lugar" ContentTemplate="{DataTemplate views:DetallesLugarPage}" />
+    <ShellContent Title="Lugares Guardados" ContentTemplate="{DataTemplate views:LugaresGuardadosPage}" />
 </Shell>
